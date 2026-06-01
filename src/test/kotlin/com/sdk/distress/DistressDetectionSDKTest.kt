@@ -79,16 +79,14 @@ class DistressDetectionSDKTest {
             id = "low",
             timestamp = System.currentTimeMillis(),
             distressType = DistressType.CRY,
-            confidence = 0.3f,
-            userResponsive = false
+            confidence = 0.3f
         )
         
         val highConfidence = DistressEvent(
             id = "high",
             timestamp = System.currentTimeMillis(),
             distressType = DistressType.SCREAM,
-            confidence = 0.95f,
-            userResponsive = true
+            confidence = 0.95f
         )
         
         assertTrue(lowConfidence.confidence < highConfidence.confidence)
