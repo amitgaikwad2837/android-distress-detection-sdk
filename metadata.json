@@ -1,0 +1,27 @@
+{
+  "name": "android-distress-detection-sdk",
+  "version": "1.0.0",
+  "description": "Audio-based distress detection through cry, scream, and panic detection",
+  "platform": "android",
+  "category": "safety-emergency",
+  "minSdk": 24,
+  "targetSdk": 34,
+  "language": "kotlin",
+  "buildSystem": "gradle",
+  "features": [
+    "scream-detection",
+    "cry-detection",
+    "panic-detection",
+    "phrase-detection",
+    "confidence-scoring",
+    "real-time-monitoring"
+  ],
+  "dependencies": [
+    "tensorflow-lite"
+  ],
+  "permissions": [
+    "RECORD_AUDIO",
+    "INTERNET"
+  ],
+  "tags": ["android", "safety", "distress-detection", "audio-analysis"]
+}
