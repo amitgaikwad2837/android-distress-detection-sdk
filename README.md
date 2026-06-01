@@ -1,16 +1,21 @@
 ﻿# Android Distress Detection SDK
 
+## 📦 Registry & Repository
+
+- **Maven Central**: [io.github.amitgaikwad2837:android-distress-detection-sdk](https://central.sonatype.com/artifact/io.github.amitgaikwad2837/android-distress-detection-sdk)
+- **GitHub**: [amitgaikwad2837/android-distress-detection-sdk](https://github.com/amitgaikwad2837/android-distress-detection-sdk)
+
 ## Overview
 
-Audio-based distress detection through cry, scream, and panic detection
+Detect emotional distress from audio patterns including cries, screams, and panic vocalizations. Uses real-time audio analysis to identify signs of psychological stress for proactive support and intervention.
 
 ## Installation
 
-Add the Maven dependency once artifacts are published:
+Add the Maven dependency:
 
 ~~~kotlin
 dependencies {
-  implementation("io.github.amitgaikwad2837:android-distress-detection-sdk:1.0.0")
+  implementation("io.github.amitgaikwad2837:android-distress-detection-sdk:0.0.9")
 }
 ~~~
 
